@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated artifacts (keep the repo light)
+data/processed/*
+models/*
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
